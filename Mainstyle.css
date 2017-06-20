@@ -1,0 +1,225 @@
+body {background-color:white; margin: 10px; line-height: 150%;}
+
+.solidblockmenu{
+ 
+margin-top: -4px;
+padding: 0; 
+font-family:"GE Inspira"; 
+font-size:15px; 
+color:#404040; 
+width: 100%;  
+
+}
+.solidblockmenu li{
+display: inline-block;
+}
+.solidblockmenu li a{ 
+margin-top:0px; 
+text-align:center; 
+border: 0.5px solid #8c8c8c;
+border-radius: 5px;
+/*border-left:0.5px solid #8c8c8c; 
+border-right:0.5px solid #8c8c8c;*/
+height:15px; 
+float: left; 
+color: #404040; 
+text-decoration: none; 
+padding-left:10px; 
+padding-right:10px; 
+padding-bottom:9.2px; 
+
+}
+
+
+.solidblockmenu li a:visited{ 
+color: #d4d4d4; 
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li .current{ 
+color: #ffffff; 
+border-left:0.5px solid #8c8c8c; 
+border-right:0.5px solid #8c8c8c; 
+}
+
+.box
+{
+	width: 997px;
+	height: 600px;
+	margin-top:0px;
+	position: absolute;	
+
+}
+.iconbox
+{
+	position: absolute;
+	border: 1px solid white;
+	border-radius: 5px;
+	
+}
+.transbox {
+	position: absolute;
+	margin-top: -415px;
+	margin-left: 70px;
+     	width: 415px;
+	height: 420px;
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgb(99, 183, 215);	
+}
+
+.transbox1
+{	
+	margin-top: 45px;
+	margin-left: 600px;
+     	width: 300px;
+	height: 163px;
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgb(99, 183, 215);
+	
+}
+.transbox2
+{
+	
+	margin-top: 50px;
+	margin-left: 600px;
+     	width: 300px;
+	height: 200px;
+	background: rgba(255, 255, 255, 0.3);
+	border: 1px solid rgb(99, 183, 215);
+	
+}
+.header /*IPP Application Phase 1 */
+{ 
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	width: 700px;
+	height: 25px;
+	background-image: linear-gradient(to bottom, rgba(68, 102, 147) 0%, rgba(87, 136, 177) 100%);
+	/*background: rgb(128, 159, 192);*/
+    	padding: 10px; 
+	border: 1.3px solid white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:GE Inspira Sans;
+	font-size:26px;
+	font-weight: bold;
+	color: white;
+}
+.headerbox
+{
+	border-radius: 10px;
+    	background: #8FB1ED; /*rgb(159, 186, 206);*/
+    	padding: 10px; 
+	border: 1.3px solid white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:"";
+	font-size:24px;
+	font-weight: bold;
+	color: white;
+	
+}
+.tb {
+	vertical-align: middle;
+     	color: white;
+	margin-top: 4px;
+}
+wrap {
+    margin-left: 10px;
+	margin-top: 40px;
+}
+
+.button {
+	padding: 0 5em 10em 0;
+	font-weight: bold;
+	font-family:GE Inspira;
+	color: white;
+	
+
+}
+.button ul {
+	list-style: none;
+	margin-top: 6px;
+	padding: 10px;
+}
+	
+.button li {
+	
+	margin-left: 42px;
+	margin-top: 1px;
+	list-style: none;
+	list-style-image: none;
+}
+
+.navbar /*Black panel*/
+{
+	width: 965px;
+	 height: 30px;
+	margin-top:0px
+	float: none;
+  	padding: 10px 15px 10px;
+	background-image: linear-gradient(to bottom, #141414 0%, #141414 100%);
+	background-image: repeat-x;
+  	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);	
+	align-items: left;
+	display:flex;
+	font-size: 20px;
+	font-family: "GE Inspira Sans";
+	color: white;
+	font-weight: normal;
+
+}
+
+.navbarpanel /*Gray Panel*/
+{
+	width: 966px;
+	 height: 17px;
+	margin-top:2px
+	float: none;
+  	padding: 10px 15px 10px;
+  	background-color: #333333;
+  	/*text-shadow: 0 1px 0 #ffffff;	*/
+	align-items: left;
+	display:flex;
+	font-size: 17px;
+	font-family:"GE Inspira Sans";
+	font-weight: normal;
+	color: white;
+
+}	
+.button li a {
+	display: block;
+	padding: 10px 25px 12px 1.3em;
+	border-radius: 10px;
+	border: 0.5px solid white;
+	background-color:  #6495ED ;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+.button li a:hover {
+	border-left: 5px solid #1c64d1;
+	border-right: 5px solid #5ba3e0;
+	border: 0.5px solid white;
+	background-color: #8FB1ED;
+	color: #fff;
+	opacity: 1;
+}
+
+
+.content {
+        margin-left: 200px;
+        margin-top: -500px;
+        padding: 5em;
+        text-align: top;
+        height: 100px;
+      }
